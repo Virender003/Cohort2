@@ -1,0 +1,47 @@
+@font-face {
+    font-family: f1;
+    src: url(./Kalufira.otf);
+}
+@font-face {
+    font-family: f2;
+    src: url(./Starjout.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapers.com/images/hd/baby-groot-on-dynamite-mboholoab1j4r24b.jpg);
+    background-size: cover;
+
+    text-align: center;
+    /* padding: 0px; */
+}
+
+h1{
+    font-size: 50px;
+    color: rgba(194, 80, 24, 0.993);
+    font-family: f2;
+    font-weight: 50;
+}
+
+button{
+    font-size: 30px;
+    padding: 8px 10px;
+    color: black;
+    background-color: rgb(204, 85, 85);
+    border: 3px solid black;
+    font-weight: 300;
+    border-radius: 8px;
+    font-family: f1;
+}
